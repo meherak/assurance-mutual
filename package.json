@@ -1,0 +1,20 @@
+{
+  "name": "project_assurance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "front": "cd holly-react && npm run dev",
+    "back": "cd server && nodemon app",
+    "start": "concurrently \"yarn run front\" \"yarn run back\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^7.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.15"
+  }
+}
